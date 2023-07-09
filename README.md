@@ -6,7 +6,7 @@ This project is a small simulator of an OS kernel that can be used for performan
 The simulator reads the process information from a Comma Separated Value (CSV) file. Information on the columns follows:
 | PID| Floor | Arrival Time | Total CPU Time | I/O Frequency | I/O Duration | Priority | Memory Required |
 |----|-------|--------------|----------------|---------------|--------------|----------|-----------------|
-|
+
 * Pid: a unique identifier for the process
 * Arrival Time: the time when the process arrives (measured in milliseconds)
 * Total CPU Time: the total time the process needs to complete (excluding I/O time)
@@ -28,7 +28,6 @@ The simulation follows multiple scheduling strategy. The output is formatted as 
 
 | PID| Old State | New State |
 |----|-----------|-----------|
-|
 
 ## Simulation Arguements
 
